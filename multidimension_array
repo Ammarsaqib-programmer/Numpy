@@ -1,0 +1,14 @@
+import numpy as np
+
+# Creating 3D array sequences
+seq_1 = [1, 2, 3]
+seq_2 = [4, 5, 6]
+seq_3 = [7, 8, 9]
+seq_4 = [10.1, 12.3, 15.8]
+
+# Combining sequences into a 2D array
+array_abs = np.array([seq_1, seq_2, seq_3, seq_4])
+print("3D Array:\n", array_abs)  # Printing the 3D array
+
+# Printing the shape of the array (number of rows and columns)
+print("Shape of array_abs:", array_abs.shape)
