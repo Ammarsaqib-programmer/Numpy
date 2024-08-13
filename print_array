@@ -1,0 +1,19 @@
+import numpy as np
+
+# 1D Array
+array_a = np.array([1, 2, 3, 4, 6, 'ALI'])  # Creating a 1D array with mixed data types
+print("1D Array:", array_a)  # Printing the 1D array
+
+# Python List
+python_list = [1, 2, 34, 56, "Ammar"]  # Creating a Python list with mixed data types
+print("Python List:", python_list)  # Printing the Python list
+
+# Shape of 1D Array
+print("Shape of array_a:", array_a.shape)  # The shape of the array (number of elements in the array)
+
+# 2D Array
+array_b = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])  # Creating a 2D array
+print("2D Array:\n", array_b)  # Printing the 2D array
+
+# Shape of 2D Array
+print("Shape of array_b:", array_b.shape)  # The shape of the array (number of rows and columns)
